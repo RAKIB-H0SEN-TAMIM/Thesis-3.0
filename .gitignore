@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# license (CC BY-NC-SA) + public-release safety: keep raw text out of git
+data/raw/
+results/leakage/pairs.csv
+results/leakage/label_conflicts.csv
+results/leakage/manual_check_100.csv
+results/cl/*.npy
+# hidden answer keys: annotators must not see these before step 2
+**/*_KEY_*
