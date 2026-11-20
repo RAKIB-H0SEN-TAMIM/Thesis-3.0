@@ -9,3 +9,6 @@ results/leakage/manual_check_100.csv
 results/cl/*.npy
 # hidden answer keys: annotators must not see these before step 2
 **/*_KEY_*
+# Claude-only kill-test labels contain gold; keep out until both human blind sheets are done
+annotation/killtest_llm/*.csv
+annotation/killtest_llm/*.txt
